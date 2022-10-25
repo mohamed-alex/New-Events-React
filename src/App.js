@@ -2,8 +2,8 @@ import Overview from './design-system/components/Overview'
 
 function App() {
   return (
-    <div className="App">
-      Mohamed
+    <div className="App" style={{display:'flex'}}>
+    
 
       <Overview 
         
@@ -14,7 +14,7 @@ function App() {
 
      <Overview 
      icon='fa fa-heart'
-        title='Ahmed' 
+        title='Lina' 
         description='Content 2:lorem epsum lorem epsum lorem epsum lorem
                     epsum lorem epsum lorem epsum lorem epsum' />
 

@@ -1,14 +1,15 @@
 import React from 'react'
+import {OverviewWapper, Icon, Title, Descreption} from './Style.jsx'
 
 
 export default function Overview(props) {
   return (
-    <div>
-
-        <div><i className={props.icon}></i></div>
-    
-      <h2>{props.title}</h2>
-      <p>{props.description}</p>
-    </div>
+    <OverviewWapper>
+      <div>
+        <div><Icon color='red' className={props.icon}></Icon></div>
+        <Title>{props.title}</Title>
+        <Descreption>{props.description}</Descreption>
+      </div>
+    </OverviewWapper>
   )
 }
